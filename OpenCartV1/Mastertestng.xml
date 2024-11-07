@@ -3,11 +3,10 @@
 <suite name="Suite">
   <listeners>
 	<listener class-name="utilities.ExtentReportManager"></listener>
-	
   </listeners>
   <test thread-count="5" name="Test">
 	
-	<parameter name="os" value="linux" />
+	<parameter name="os" value="windows" />
 	<parameter name="browser" value="chrome" />
 	
     <classes>
